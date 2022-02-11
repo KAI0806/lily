@@ -8,7 +8,7 @@ html{
 body, h1, h2, h3, h4, h5, p, ul{
     margin: 0;
     padding: 0;
-    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
 }
 
 li{
@@ -17,6 +17,15 @@ li{
 
 a{
     text-decoration: none;
+}
+
+h2{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.8rem;
 }
 
 .pc_only{
@@ -33,6 +42,180 @@ a{
 
 .sp_flex{
     display: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: calc(100% - 12.6rem);
+    z-index: 10000;
+    padding: 2.38rem 6.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header > a img{
+    width: 6.253rem;
+}
+
+header a h1{
+    font-size: 4.5rem;
+    color: white;
+    margin-left: 2.6rem;
+    text-shadow: 0 .3rem .6rem rgba(0, 0, 0, 16%);
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70.7rem;
+}
+
+header nav ul li{
+    text-align: center;
+}
+
+header nav ul li a{
+    font-size: 2.4rem;
+    color: white;
+    text-shadow: .3rem .3rem .1rem rgba(0, 0, 0, 16%);
+}
+
+header nav ul li a small{
+    font-size: 1.8rem;
+}
+
+/* kv */
+#kv{
+    height: 109.5rem;
+    width: 100%;
+    position: relative;
+}
+
+.separator{
+    width: 100%;
+    height: 27.8rem;
+    background: url("../img/common/separator.jpg")no-repeat center center/cover;
+}
+
+/* footer */
+footer{
+    background: #2C2D54;
+    padding: 3.42rem 0 1rem;
+}
+
+footer .wrap{
+    width: 79.15%;
+    margin: auto;
+}
+
+footer .wrap .top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 4.15rem;
+    margin-bottom: 1.3rem;
+    border-bottom: .1rem solid white;
+}
+
+footer .wrap .top a{
+    width: 51.35rem;
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #84DF5D;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+footer .wrap .top a img{
+    width: 5.25rem;
+    margin-right: 3.22rem;
+}
+
+footer .wrap .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .wrap .bottom .left a{
+    font-size: 3.5rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #F3F3F3;
+    margin-bottom: 1.05rem;
+}
+
+footer .wrap .bottom .left a img{
+    width: 5.98rem;
+    margin-right: 1.4rem;
+}
+
+footer .wrap .bottom .left p{
+    color: #F3F3F3;
+    font-size: 1.6rem;
+}
+
+footer .wrap .bottom .left .copy{
+    font-size: 1.4rem;
+    margin-top: 4.6rem;
+}
+
+footer .wrap .bottom .right nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4.1rem;
+}
+
+footer .wrap .bottom .right nav ul li{
+    position: relative;
+    margin-left: 8.2rem;
+}
+
+footer .wrap .bottom .right nav ul li:first-child{
+    margin: 0;
+}
+
+footer .wrap .bottom .right nav ul li::before{
+    position: absolute;
+    content: "";
+    width: .1rem;
+    height: 2.3rem;
+    right: -4.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #F3F3F3;
+}
+
+footer .wrap .bottom .right nav ul li:first-child::after{
+    position: absolute;
+    content: "";
+    width: .1rem;
+    height: 2.3rem;
+    left: -4.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #F3F3F3;
+}
+
+footer .wrap .bottom .right nav ul li a{
+    font-size: 1.8rem;
+    color: #F3F3F3;
+
 }
 
 @media screen and (max-width: 767px){

@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#kv{
+    background: url("../img/company/company_kv.jpg")no-repeat center center/cover;
+}
+
+#kv > div{
+    position: absolute;
+    content: "";
+    top: 30rem;
+    left: 32rem;
+}
+
+#kv > div h2{
+    font-size: 7.2rem;
+    color: white;
+    line-height: 1;
+    border-bottom: .1rem solid #84DF5D;
+    padding-bottom: 1.05rem;
+    margin-bottom: 2.45rem;
+}
+
+#kv > div h2 small{
+    font-size: 3.2rem;
+}
+
+#kv > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#kv > div > div a{
+    color: #919191;
+    font-size: 1.8rem;
+}
+
+#kv > div > div p{
+    color: #919191;
+}
+
+/* message */
+#message{
+    position: relative;
+    width: 66.66%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -31.5rem;
+    z-index: 10;
+    margin-bottom: 12.5rem;
+}
+
+#message img{
+    width: 100%;
+    margin-bottom: 6.4rem;
+}
+
+#message .wrap{
+    width: 84.37%;
+    margin: auto;
+}
+
+#message .wrap h3{
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+    color: #10233D;
+}
+
+#message .wrap p{
+    font-size: 1.6rem;
+    margin-bottom: 2.3rem;
+    color: #10233D;
+}
+
+#message .wrap div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#message .wrap div p span{
+    font-weight: bold;
+}
+
+/* detail */
+#detail{
+    width: 80rem;
+    margin: auto;
+}
+
+#detail div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#detail div h4{
+    width: 36.25%;
+    font-size: 1.6rem;
+}
+
+#detail div p{
+    font-size: 1.6rem;
+}
