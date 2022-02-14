@@ -7,14 +7,17 @@
     <title>株式会社リリー｜公式ホームページ</title>
 
     <link rel="stylesheet" href="assets/css/application.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body>
+<body ontouchstart="">
     <header>
         <a href="#"><img src="assets/img/top/top_logo.svg" alt="株式会社リリー ロゴ"><h1>株式会社リリー</h1></a>
 
-        <nav>
+        <nav class="pc_flex">
             <ul>
                 <li><a href="company/">会社概要<br/><small>Company Profile</small></a></li>
                 <li><a href="about/">事業概要<br/><small>Business summary</small></a></li>
@@ -22,12 +25,45 @@
                 <li><a href="contact/">お問合せ<br/><small>Contact</small></a></li>
             </ul>
         </nav>
+
+        <a class="header_entry" href="contact/"><img src="assets/img/top/document.svg" alt="ENTRY">ENTRY</a>
+
+        <nav id="nav" class="sp_only">
+            <div class="nav_wrap">
+                <a class="logo" href="#"><img src="assets/img/top/top_logo.svg" alt="株式会社リリー ロゴ"><h1>株式会社リリー</h1></a>
+
+                <ul>
+                    <li><a href="company/">会社概要</a></li>
+                    <li><a href="about/">事業概要</a></li>
+                    <li><a href="works/">制作事例</a></li>
+                </ul>
+
+                <a class="cta" href="contact/"><img src="assets/img/common/email.svg" alt="お問合せ・ご相談">お問合せ・ご相談</a>
+
+                <div class="sns">
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="assets/img/common/facebook-f.svg" alt="facebook"></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="assets/img/common/twitter.svg" alt="twitter"></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="assets/img/common/instagram.svg" alt="instagram"></a>
+                </div>
+            </div>
+        </nav>
+        <div id="hamburger" class="sp_only">
+            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>  
     </header>
     <main>
         <section id="mv">
             <div class="mv">
-                <h2>
+                <h2 class="pc_only">
                     <span>アイデア</span>が世界を変える
+                    <br/>技術で人を繋ぐ
+                </h2>
+
+                <h2 class="sp_only">
+                    世界を変える
+                    <br/><span>アイデア</span>が
                     <br/>技術で人を繋ぐ
                 </h2>
 
@@ -42,7 +78,7 @@
 
                 <a class="scroll" href="#scroll">SCROLL</a>
 
-                <a class="entry" href="contact/"><p>ENTRY</p></a>
+                <a class="entry pc_only" href="contact/"><p>ENTRY</p></a>
             </div>
             <div id="scroll" class="solution">
                 <h2>Solution</h2>
@@ -94,7 +130,24 @@
             <div class="wrap">
                 <p>豊富な実績で培った高い技術力とノウハウを活かし、お客様のご要望を実現するサービスをご提供します。</p>
 
-                <div class="slides"></div>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="assets/img/top/slide001.jpg" alt="オンライン本人確認WEBアプリケーション">
+                        <p>■オンライン本人確認WEBアプリケーション</p>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/top/slide002.jpg" alt="工事事故速報・Webアプリケーション">
+                        <p>■工事事故速報・Webアプリケーション</p>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/top/slide003.jpg" alt="工事現場組織図作成Webアプリケーション">
+                        <p>■工事現場組織図作成Webアプリケーション</p>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/top/slide004.jpg" alt="物流マッチングシステム">
+                        <p>■物流マッチングシステム</p>
+                    </div>
+                </div>
                 
                 <a class="more" href="works/">VIEW MORE</a>
             </div>
@@ -130,5 +183,9 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/menu.js"></script>
 </body>
 </html>

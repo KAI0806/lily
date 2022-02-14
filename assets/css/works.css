@@ -1,0 +1,126 @@
+@charset "UTF-8";
+h2,h3,h4,p{
+    color: #163C6F;
+}
+
+#kv{
+    background: url("../img/works/works_kv.jpg")no-repeat center center/cover;
+}
+
+#kv::before{
+    position: absolute;
+    content: "";
+    width: 67.5rem;
+    height: 66.6rem;
+    right: 15.2rem;
+    bottom: -18rem;
+    background: url("../img/works/works_before.png")no-repeat center center/contain;
+    z-index: 10;
+}
+
+#kv .txt{
+    top: unset;
+    bottom: 10.8rem;
+}
+
+#kv .txt h3{
+    font-size: 3.2rem;
+    margin-bottom: 5.2rem;
+    line-height: 1;
+    color: white;
+}
+
+#kv .txt p{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* wrap */
+#wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 56.25%;
+    margin: 15rem auto 10.9rem;
+}
+
+#wrap .content{
+    position: relative;
+    width: 40.74%;
+    margin-bottom: 35.21rem;
+}
+
+#wrap .content:nth-child(even){
+    margin-right: 6rem;
+    transform: translateY(11.1rem);
+}
+
+#wrap .content img{
+    width: 100%;
+}
+
+#wrap .content .txt{
+    position: absolute;
+    top: 19.5rem;
+    left: 5rem;
+    background: white;
+    box-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 16%);
+    padding: 3.1rem 4.3rem;
+    width: calc(100% - 8.6rem);
+}
+
+#wrap .content .txt h4{
+    font-size: 1.6rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 16%);
+    margin-bottom: 2.1rem;
+}
+
+#wrap .content .txt h4 small{
+    color: #F3F3F3;
+    font-size: 1.4rem;
+    text-shadow: none;
+}
+
+#wrap .content .txt p{
+    font-size: 1.4rem;
+}
+
+#wrap .content .txt p+p{
+    margin-top: 1.5rem;
+}
+
+#wrap .content::before{
+    position: absolute;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "HGGothicE";
+    font-size: 6rem;
+    font-weight: bold;
+    color: #163C6F;
+    top: -4rem;
+    left: 1rem;
+}
+
+#wrap .content:first-child::before{
+    content: "01";
+}
+
+#wrap .content:nth-child(2)::before{
+    content: "02";
+}
+
+#wrap .content:nth-child(3)::before{
+    content: "03";
+}
+
+#wrap .content:nth-child(4)::before{
+    content: "04";
+}
+
+#wrap .content:nth-child(5)::before{
+    content: "05";
+}
+
+#wrap .content:nth-child(6)::before{
+    content: "06";
+}
