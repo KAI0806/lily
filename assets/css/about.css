@@ -135,3 +135,136 @@ h2,h3,h4,p{
 #list div p{
     font-size: 1.4rem;
 }
+
+@media screen and (max-width: 1024px){
+    .title{
+        width: 65%;
+    }
+
+    #detail .wrap{
+        width: 65%;
+    }
+
+    #list {
+        width: 65%;
+    }
+
+    #list div{
+        padding-left: 3rem;
+        width: calc(100% - 3rem);
+    }
+
+    #list div h4{
+        width: 21rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #kv{
+        background: url("../img/about/about_kv_sp.jpg")no-repeat center center/cover;
+    }
+
+    #kv::before{
+        font-size: 5.8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 8.2rem;
+    }
+
+    #kv::after {
+        width: 40rem;
+        height: 35.5rem;
+        bottom: -3.5rem;
+        right: -10rem;
+    }
+
+    .title{
+        width: 85.33%;
+        min-width: 320px;
+        margin: 3.4rem auto 5.6rem;
+    }
+
+    .title h3{
+        font-size: 1.8rem;
+        margin-bottom: 3.9rem;
+    }
+
+    .title p{
+        font-size: 1.4rem;
+        line-height: 2;
+    }
+
+    /* detail */
+    #detail{
+        margin-bottom: 3.6rem;
+    }
+
+    #detail .wrap{
+        width: 85.33%;
+        min-width: 320px;
+        margin: auto;
+        border-top: .5rem solid #0B6193;
+    }
+
+    #detail .wrap h3{
+        padding: 1.8rem 0;
+        margin-bottom: 3.2rem;
+    }
+
+    #detail .wrap .content{
+        width: 78.125%;
+        margin-bottom: 3.6rem;
+    }
+
+    #detail .wrap .content h4{
+        font-size: 1.2rem;
+        margin-bottom: 1.4rem;
+        text-align: center;
+    }
+
+    #detail .wrap .content:nth-child(odd) h4{
+        text-align: center;
+    }
+
+    #detail .wrap .content div{
+        flex-direction: column;
+    }
+
+    #detail .wrap .content div img{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+
+    #detail .wrap .content div p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #detail .wrap .content:nth-child(odd) div{
+        flex-direction: column;
+    }
+
+    #list{
+        width: 85.33%;
+        min-width: 320px;
+        margin-bottom: 4.8rem;
+    }
+
+    #list div{
+        flex-direction: column;
+        padding: 1.7rem 0;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    #list div h4{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    #list div p{
+        font-size: 1.2rem;
+    }
+}

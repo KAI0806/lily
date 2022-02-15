@@ -93,3 +93,76 @@
     width: 66.67%;
     height: 40rem;
 }
+
+@media screen and (max-width: 767px){
+    #kv{
+        background: url("../img/company/company_kv_sp.jpg")no-repeat center center/cover;
+    }
+
+    #message{
+        width: 85.33%;
+        min-width: 320px;
+        margin-top: -23rem;
+        margin-bottom: 4.2rem;
+    }
+
+    #message img{
+        margin-bottom: 3.3rem;
+    }
+
+    #message .wrap{
+        width: 100%;
+    }
+
+    #message .wrap h3{
+        font-size: 1.8rem;
+        width: 21.2rem;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2.9rem;
+    }
+
+    #message .wrap p{
+        font-size: 1.4rem;
+        margin-bottom: 2.2rem;
+    }
+
+    #message .wrap div p span{
+        font-size: 1.6rem;
+    }
+
+    /* detail */
+    #detail{
+        width: 85.33%;
+        min-width: 320px;
+        margin-bottom: 2.5rem;
+    }
+
+    #detail div{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 1.75rem;
+        margin-bottom: 1.65rem;
+    }
+
+    #detail div:first-child{
+        padding-top: 1.65rem;
+    }
+
+    #detail div h4{
+        font-size: 1.4rem;
+    }
+
+    #detail div p{
+        font-size: 1.4rem;
+    }
+
+    .map_wrap{
+        margin-bottom: 4.8rem;
+    }
+
+    .map{
+        width: 100%;
+        height: 25rem;
+    }
+}

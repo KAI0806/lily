@@ -362,3 +362,244 @@
     margin-top: 2rem;
     transform: translateX(-47%);
 }
+
+@media screen and (max-width: 767px){
+    #mv .mv{
+        height: 75.3rem;
+    }
+
+    #mv .mv h2{
+        font-size: 2.4rem;
+        color: #0B6193;
+        line-height: 2.5;
+        letter-spacing: 1.5rem;
+        position: absolute;
+        top: 8.4rem;
+        left: 3.5rem;
+    }
+
+    #mv .mv h2 span{
+        padding: 1.8rem .7rem;
+        margin-bottom: .5rem;
+    }
+
+    #mv .mv .content{
+        background: none;
+        bottom: 7rem;
+        right: unset;
+        left: 2rem;
+        width: 37.1rem;
+        height: 43rem;
+        border-radius: 0;
+    }
+
+    #mv .mv .content img{
+        width: 100%;
+        margin: 0;
+    }
+
+    #mv .mv .content p{
+        font-size: 2.8rem;
+        text-align: left;
+        top: unset;
+        bottom: 6.6rem;
+        transform: translate(-50%, 0);
+    }
+
+    #mv .mv .scroll{
+        font-size: 1.2rem;
+        bottom: 3.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #mv .mv .scroll::before{
+        height: 5.3rem;
+        bottom: -6rem;
+    }
+
+    /* solutino */
+    #mv .solution{
+        margin: 6.4rem 0 8rem;
+    }
+
+    #mv .solution h2{
+        margin-bottom: 1.4rem;
+    }
+
+    #mv .solution h2::before{
+        width: 2.837rem;
+        height: .24rem;
+        top: -1.45rem;
+    }
+
+    #mv .solution p{
+        margin-bottom: 2.45rem;
+    }
+
+    #mv .solution img{
+        width: 22.3rem;
+    }
+
+    /* company */
+    #company{
+        width: 100%;
+        padding: 0;
+        background: none;
+        margin-bottom: 4.6rem;
+    }
+
+    #company .wrap{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #company .wrap h2{
+        background: url("../img/top/company_bg.jpg")no-repeat center center/cover;
+        margin: 0;
+        width: calc(100% - 17.5rem);
+        padding: 3.4rem 0 4.9rem 17.5rem;
+        font-size: 2.4rem;
+        line-height: 1.3;
+        margin-bottom: 2.6rem;
+    }
+
+    #company .wrap h2 small{
+        font-size: 1.2rem;
+    }
+
+    #company .wrap h2::before {
+        content: "";
+        position: absolute;
+        width: 15.6rem;
+        height: 0.1rem;
+        top: 50%;
+        left: 17.5rem;
+        transform: translateY(-50%);
+        background: white;
+    }
+
+    #company .wrap p{
+        color: #484848;
+        margin: auto;
+        width: 71.2%;
+        min-width: 267px;
+        text-align: center;
+        margin-bottom: 2.7rem;
+    }
+
+    .more {
+        color: white;
+        font-size: 1.2rem;
+        width: 71.2%;
+        min-width: 267px;
+        padding: 1.9rem 0;
+        text-align: center;
+        transition: all .2s ease-in-out;
+    }
+
+    #company .more{
+        margin: auto;
+    }
+
+    /* about */
+    #about{
+        flex-direction: column;
+        margin-bottom: 7.1rem;
+    }
+
+    #about .left{
+        width: 100%;
+        padding: 5.07rem 0;
+    }
+
+    #about .left img{
+        width: 15.888rem;
+    }
+
+    #about .right{
+        width: 100%;
+        padding: 2.7rem 0 3rem;
+    }
+
+    #about .right h2{
+        font-size: 2.4rem;
+        text-align: center;
+        margin-bottom: 1.8rem;
+    }
+
+    #about .right h3{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+
+    #about .right p{
+        width: 71.2%;
+        min-width: 267px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    #about .more{
+        margin: auto;
+    }
+
+    /* works */
+    #works{
+        margin-bottom: 3rem;
+    }
+
+    #works h2{
+        margin-bottom: 2.1rem;
+    }
+
+    #works h2::before{
+        width: 2.837rem;
+        height: .24rem;
+        top: -1.45rem;
+    }
+
+    #works .wrap{
+        padding: 2.3rem 0 3rem;
+        width: 100%;
+    }
+
+    #works .wrap p{
+        width: 71.2%;
+        min-width: 267px;
+        margin: auto;
+        margin-bottom: 1.9rem;
+    }
+
+    #works .wrap .slider{
+        z-index: 10;
+        overflow: hidden;
+        width: 100%;
+        transform: translateX(-7%);
+    }
+    
+    #works .wrap .slide{
+        background: white;
+        margin: 0 5rem 1.5rem;
+        transform: translateX(50rem);
+    }
+    
+    #works .wrap .slide img{
+        width: 37.5rem;
+        margin: auto;
+    }
+    
+    #works .wrap .slide p{
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+    }
+
+    #works .wrap .more{
+        margin: auto;
+        margin-top: 2rem;
+        transform: translateX(0);
+    }
+}

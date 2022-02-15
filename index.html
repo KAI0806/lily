@@ -26,7 +26,7 @@
             </ul>
         </nav>
 
-        <a class="header_entry" href="contact/"><img src="assets/img/top/document.svg" alt="ENTRY">ENTRY</a>
+        <a class="header_entry sp_flex" href="contact/"><img src="assets/img/top/document.svg" alt="ENTRY">ENTRY</a>
 
         <nav id="nav" class="sp_only">
             <div class="nav_wrap">
@@ -68,10 +68,14 @@
                 </h2>
 
                 <div class="content">
-                    <img src="assets/img/top/mv_cha.png" alt="アイデアが世界を変える">
+                    <picture>
+                        <source srcset="assets/img/top/mv_cha.png" media="(min-width: 767px)" />
+                        <img src="assets/img/top/mv_cha_sp.png" alt="アイデアが世界を変える">
+                    </picture>
+                    
                     <p>
                         There is
-                        <br/>no such thing
+                        <br class="pc_only"/>no such thing
                         <br/>as worthless.
                     </p>
                 </div>
@@ -118,7 +122,7 @@
                     <br/>お客様の想像を実現します。
                 </h3>
 
-                <p>システムの企画、設計、開発、運用に至るまで一貫したサービスをご提供します。企業の潜在的な課題と向き合い、テクノロジーを活用した抜本的解決策をご提案いたします。</p>
+                <p>システムの企画、設計、開発、運用に至るまで一貫したサービスをご提供します。<br class="sp_only"/>企業の潜在的な課題と向き合い、テクノロジーを活用した抜本的解決策をご提案いたします。</p>
 
                 <a class="more" href="about/">VIEW MORE</a>
             </div>
@@ -165,7 +169,7 @@
             <div class="bottom">
                 <div class="left">
                     <a href="#"><img src="assets/img/common/logo.svg" alt="リリーのロゴ">株式会社リリー</a>
-                    <p>〒276-0042　千葉県八千代市ゆりのき台7-14-2</p>
+                    <p>〒276-0042 千葉県八千代市ゆりのき台7-14-2</p>
 
                     <p class="copy">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Lily .inc</p>
                 </div>

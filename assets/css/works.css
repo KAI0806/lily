@@ -124,3 +124,104 @@ h2,h3,h4,p{
 #wrap .content:nth-child(6)::before{
     content: "06";
 }
+
+@media screen and (max-width: 1024px){
+    #wrap{
+        width: 70%;
+    }
+
+    #wrap .content{
+        width: 43%;
+        margin-bottom: 43rem;
+    }
+
+    #wrap .content .txt{
+        top: 25.5rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #kv{
+        background: url("../img/works/works_kv_sp.jpg")no-repeat center center/cover;
+    }
+
+    #kv::before {
+        width: 27.6rem;
+        height: 27.2rem;
+        right: .8rem;
+        bottom: -5.8rem;
+        background: url(../img/works/works_before.png)no-repeat center center/contain;
+        z-index: 10;
+    }
+
+    #kv .txt{
+        bottom: 3rem;
+        z-index: 20;
+    }
+
+    #kv .txt h3{
+        font-size: 2.4rem;
+        margin-bottom: 3.2rem;
+    }
+
+    #kv .txt p{
+        font-size: 1.4rem;
+    }
+
+    #wrap {
+        width: 85.33%;
+        min-width: 320px;
+        margin: 8.4rem auto 1rem;
+    }
+
+    #wrap .content{
+        width: 34.7rem;
+        margin-bottom: 29.2rem;
+    }
+
+    #wrap .content:nth-child(odd){
+        transform: translateX(-2.8rem);
+    }
+
+    #wrap .content:nth-child(even){
+        transform: translateX(.7rem);
+    }
+
+    #wrap .content img{
+        width: 34.7rem;
+    }
+
+    #wrap .content .txt{
+        top: 16rem;
+        left: 2.8rem;
+        padding: 3.3rem 2.8rem;
+        width: calc(100% - 5.6rem);
+    }
+
+    #wrap .content:nth-child(even) .txt{
+        left: -3.4rem;
+    }
+
+    #wrap .content .txt h4{
+        font-size: 1.35rem;
+    }
+
+    #wrap .content .txt h4 small{
+        font-size: 1.2rem;
+    }
+
+    #wrap .content::before{
+        font-size: 3.2rem;
+        top: -2.5rem;
+        left: 2.8rem;
+    }
+
+    #wrap .content .txt p{
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    #wrap .content .txt p+p{
+        margin-top: 1.2rem;
+    }
+}

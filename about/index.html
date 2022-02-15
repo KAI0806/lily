@@ -13,7 +13,7 @@
     <header>
         <a href="../"><img src="../assets/img/common/logo.svg" alt="株式会社リリー ロゴ"><h1>株式会社リリー</h1></a>
 
-        <nav>
+        <nav class="pc_flex">
             <ul>
                 <li><a href="../company/">会社概要<br/><small>Company Profile</small></a></li>
                 <li><a href="#">事業概要<br/><small>Business summary</small></a></li>
@@ -21,6 +21,33 @@
                 <li><a href="../contact/">お問合せ<br/><small>Contact</small></a></li>
             </ul>
         </nav>
+
+        <a class="header_entry sp_flex" href="../contact/"><img src="../assets/img/top/document.svg" alt="ENTRY">ENTRY</a>
+
+        <nav id="nav" class="sp_only">
+            <div class="nav_wrap">
+                <a class="logo" href="../"><img src="../assets/img/top/top_logo.svg" alt="株式会社リリー ロゴ"><h1>株式会社リリー</h1></a>
+
+                <ul>
+                    <li><a href="../company/">会社概要</a></li>
+                    <li><a href="#">事業概要</a></li>
+                    <li><a href="../works/">制作事例</a></li>
+                </ul>
+
+                <a class="cta" href="../contact/"><img src="../assets/img/common/email.svg" alt="お問合せ・ご相談">お問合せ・ご相談</a>
+
+                <div class="sns">
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="../assets/img/common/facebook-f.svg" alt="facebook"></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="../assets/img/common/twitter.svg" alt="twitter"></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="../assets/img/common/instagram.svg" alt="instagram"></a>
+                </div>
+            </div>
+        </nav>
+        <div id="hamburger" class="sp_only">
+            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>  
     </header>
     <main>
         <section id="kv">
@@ -37,7 +64,7 @@
         </section>
 
         <div class="title">
-            <h3>システムで人を繋ぐ。社会の基盤にいつも</h3>
+            <h3>システムで人を繋ぐ。<br class="sp_only"/>社会の基盤にいつも</h3>
             <p>
                 株式会社リリーは、IT技術を駆使したソフトウェアを中心とし、高品質・安定性を求められる社会インフラシステムから業務効率化システムまで、お客さまのニーズに合わせて最適なシステムをご提案いたします。
             </p>
@@ -51,7 +78,7 @@
                 </h3>
 
                 <div class="content">
-                    <h4>■ 業務系システム開発</h4>
+                    <h4><span class="pc_inline">■ </span>業務系システム開発</h4>
                     <div>
                         <img src="../assets/img/about/about001.jpg" alt="業務系システム開発">
                         <p>
@@ -62,7 +89,7 @@
                 </div>
 
                 <div class="content">
-                    <h4>■ WEB系システム開発</h4>
+                    <h4><span class="pc_inline">■ </span>WEB系システム開発</h4>
                     <div>
                         <img src="../assets/img/about/about002.jpg" alt="WEB系システム開発">
                         <p>
@@ -72,7 +99,7 @@
                 </div>
 
                 <div class="content">
-                    <h4>■ ソフトウェア評価/検証</h4>
+                    <h4><span class="pc_inline">■ </span>ソフトウェア評価/検証</h4>
                     <div>
                         <img src="../assets/img/about/about003.jpg" alt="ソフトウェア評価/検証">
                         <p>
@@ -85,19 +112,23 @@
 
         <section id="list">
             <div>
-                <h4>開発言語</h4>
-                <p>TypeScript,HTML5,SCSS,JavaScript,CSS,TypeScript,Node.js,Java15,PHP7,C#,Go</p>
+                <h4 class="pc_only">開発言語</h4>
+                <h4 class="sp_only">＜開発言語＞</h4>
+                <p>TypeScript,HTML5,SCSS,JavaScript,CSS,<br class="sp_only"/>TypeScript,Node.js,Java15,PHP7,C#,Go</p>
             </div>
             <div>
-                <h4>開発OS</h4>
+                <h4 class="pc_only">開発OS</h4>
+                <h4 class="sp_only">＜開発OS＞</h4>
                 <p>Windows,Linux</p>
             </div>
             <div>
-                <h4>データベース</h4>
+                <h4 class="pc_only">データベース</h4>
+                <h4 class="sp_only">＜データベース＞</h4>
                 <p>MySQL,SQLServer,CosmosDB</p>
             </div>
             <div>
-                <h4>FW・MWツール</h4>
+                <h4 class="pc_only">FW・MWツール</h4>
+                <h4 class="sp_only">＜FW・MWツール＞</h4>
                 <p>
                     Vue.js,Azure Functions,Azure App Service,Lumen,AWS EC2,Nuxt.js,.NET 
                     <br/>Framework,Angular,Svelte,EC2,Cypress
@@ -134,7 +165,7 @@
             <div class="bottom">
                 <div class="left">
                     <a href="../"><img src="../assets/img/common/logo.svg" alt="リリーのロゴ">株式会社リリー</a>
-                    <p>〒276-0042　千葉県八千代市ゆりのき台7-14-2</p>
+                    <p>〒276-0042 千葉県八千代市ゆりのき台7-14-2</p>
 
                     <p class="copy">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Lily .inc</p>
                 </div>
@@ -152,5 +183,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="../assets/js/menu.js"></script>
 </body>
 </html>
