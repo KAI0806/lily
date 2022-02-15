@@ -7,5 +7,12 @@ $('.slider').slick({
     pauseOnFocus: false,//フォーカスで一時停止
     pauseOnHover: false,//マウスホバーで一時停止
     pauseOnDotsHover: false,
-    dots:true // インジケーターを表示
+    dots:true, // インジケーターを表示
+    responsive:[{
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        dots:true,
+      }
+    }]
   });
