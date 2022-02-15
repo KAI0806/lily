@@ -760,4 +760,20 @@ footer .wrap .bottom .right nav ul li a:hover{
         font-size: 1.4rem;
         margin-top: 3rem;
     }
+
+    .page_top{
+        position: fixed;
+        bottom: 5.8rem;
+        right: 3.7rem;
+        width: 3.4rem;
+        height: 3.4rem;
+        background: url("../img/common/page_top.svg")no-repeat center center/contain;
+        transition: all .2s ease-in-out;
+        z-index: 100;
+    }
+
+    .page_top:hover{
+        opacity: .7;
+        transition: all .3s ease-in-out;
+    }
 }
