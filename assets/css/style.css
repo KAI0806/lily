@@ -39,9 +39,10 @@
 }
 
 #mv .mv .content img{
-    width: 89.5rem;
-    margin-left: 6rem;
-    margin-top: 2rem;
+    width: 100rem;
+    margin-top: 5rem;
+    transform: translateX(-5rem);
+    filter: drop-shadow(2.5rem 2.5rem .2rem #70D8F0);
 }
 
 #mv .mv .content p{
@@ -396,6 +397,7 @@
     #mv .mv .content img{
         width: 100%;
         margin: 0;
+        transform: none;
     }
 
     #mv .mv .content p{
