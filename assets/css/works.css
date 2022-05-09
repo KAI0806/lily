@@ -4,7 +4,7 @@ h2,h3,h4,p{
 }
 
 #kv{
-    background: url("../img/works/works_kv.jpg")no-repeat center center/cover;
+    background: url("../img/works/works_kv.jpg") no-repeat center center/cover;
 }
 
 #kv::before{
@@ -14,7 +14,7 @@ h2,h3,h4,p{
     height: 66.6rem;
     right: 15.2rem;
     bottom: -18rem;
-    background: url("../img/works/works_before.png")no-repeat center center/contain;
+    background: url("../img/works/works_before.png") no-repeat center center/contain;
     z-index: 10;
 }
 
@@ -142,7 +142,7 @@ h2,h3,h4,p{
 
 @media screen and (max-width: 767px){
     #kv{
-        background: url("../img/works/works_kv_sp.jpg")no-repeat center center/cover;
+        background: url("../img/works/works_kv_sp.jpg") no-repeat center center/cover;
     }
 
     #kv::before {
@@ -150,7 +150,7 @@ h2,h3,h4,p{
         height: 27.2rem;
         right: .8rem;
         bottom: -5.8rem;
-        background: url(../img/works/works_before.png)no-repeat center center/contain;
+        background: url("../img/works/works_before.png") no-repeat center center/contain;
         z-index: 10;
     }
 

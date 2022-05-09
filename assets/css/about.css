@@ -4,7 +4,7 @@ h2,h3,h4,p{
 }
 
 #kv{
-    background: url("../img/about/about_kv.jpg")no-repeat center center/cover;
+    background: url("../img/about/about_kv.jpg") no-repeat center center/cover;
 }
 
 #kv::before{
@@ -29,7 +29,7 @@ h2,h3,h4,p{
     bottom: -50rem;
     right: -13rem;
     z-index: 10;
-    background: url("../img/about/about_kv_pass.png")no-repeat center center/contain;
+    background: url("../img/about/about_kv_pass.png") no-repeat center center/contain;
 }
 
 /* main */
@@ -46,7 +46,7 @@ h2,h3,h4,p{
 
 .title p{
     font-size: 1.6rem;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 #detail{
@@ -161,7 +161,7 @@ h2,h3,h4,p{
 
 @media screen and (max-width: 767px){
     #kv{
-        background: url("../img/about/about_kv_sp.jpg")no-repeat center center/cover;
+        background: url("../img/about/about_kv_sp.jpg") no-repeat center center/cover;
     }
 
     #kv::before{

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #kv{
-    background: url("../img/company/company_kv.jpg")no-repeat center center/cover;
+    background: url("../img/company/company_kv.jpg") no-repeat center center/cover;
 }
 
 /* message */
@@ -37,6 +37,7 @@
 #message .wrap p{
     font-size: 1.6rem;
     margin-bottom: 2.3rem;
+    line-height: 2;
     color: #10233D;
 }
 
@@ -96,7 +97,7 @@
 
 @media screen and (max-width: 767px){
     #kv{
-        background: url("../img/company/company_kv_sp.jpg")no-repeat center center/cover;
+        background: url("../img/company/company_kv_sp.jpg") no-repeat center center/cover;
     }
 
     #message{

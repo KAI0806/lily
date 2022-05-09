@@ -4,7 +4,7 @@ h2,h3,h4,p{
 }
 
 #kv{
-    background: url("../img/contact/contact_kv.jpg")no-repeat center center/cover;
+    background: url("../img/contact/contact_kv.jpg") no-repeat center center/cover;
     height: 82.5rem;
 }
 
@@ -82,7 +82,7 @@ h2,h3,h4,p{
     align-items: center;
 }
 
-#form .content .select input{
+#form .content .select input[type="checkbox"]{
     width: auto;
 }
 
@@ -156,7 +156,7 @@ input{
 
 @media screen and (max-width: 767px){
     #kv{
-        background: url("../img/contact/contact_kv_sp.jpg")no-repeat center top/cover;
+        background: url("../img/contact/contact_kv_sp.jpg") no-repeat center top/cover;
         height: 64.2rem;
     }
 

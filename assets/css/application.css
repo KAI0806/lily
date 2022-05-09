@@ -212,7 +212,7 @@ header nav ul li a small{
 .separator{
     width: 100%;
     height: 41.3rem;
-    background: url("../img/common/separator.jpg")no-repeat center center/cover;
+    background: url("../img/common/separator.jpg") no-repeat center center/cover;
 }
 
 .separator div{
@@ -475,7 +475,7 @@ footer .wrap .bottom .right nav ul li a:hover{
         height: 100vh;
         right: -100%;
         top:  0;
-        background: url("../img/common/hamburger_bg.jpg")no-repeat center center/cover;
+        background: url("../img/common/hamburger_bg.jpg") no-repeat center center/cover;
         transition: all .7s ease-in-out;
         z-index: 1;
         opacity: 0;
@@ -682,6 +682,17 @@ footer .wrap .bottom .right nav ul li a:hover{
 
     .separator{
         height: 5.4rem;
+        background:  url("../img/common/separator_sp.jpg") no-repeat center center/cover;
+    }
+
+    .separator div p{
+        font-size: 1rem;
+        margin-right: 1.6rem;
+    }
+
+    .separator div img{
+        width: 3.3rem;
+        filter: drop-shadow(-0.1rem 0.1rem rgba(87, 196, 234, 30%));
     }
 
     /* footer */
@@ -790,7 +801,7 @@ footer .wrap .bottom .right nav ul li a:hover{
         right: 3.7rem;
         width: 3.4rem;
         height: 3.4rem;
-        background: url("../img/common/page_top.svg")no-repeat center center/contain;
+        background: url("../img/common/page_top.svg") no-repeat center center/contain;
         transition: all .2s ease-in-out;
         z-index: 100;
     }

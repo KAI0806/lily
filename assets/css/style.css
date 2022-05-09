@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #mv{
-    background: url("../img/top/mv_bg.jpg")no-repeat center center/cover;
+    background: url("../img/top/mv_bg.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -99,7 +99,7 @@
     width: 40.916rem;
     height: 8.275rem;
     filter: drop-shadow(-.5rem -.6rem .6rem rgba(0, 0, 0, 16%));
-    background: url("../img/top/top_entry_bg.svg")no-repeat center center/contain;
+    background: url("../img/top/top_entry_bg.svg") no-repeat center center/contain;
     transition: all .2s ease-in-out;
 }
 
@@ -125,7 +125,7 @@
     top: 50%;
     left: -6rem;
     transform: translateY(-50%);
-    background: url("../img/top/document.svg")no-repeat center center/contain;
+    background: url("../img/top/document.svg") no-repeat center center/contain;
 }
 
 #mv .mv .entry p::after{
@@ -136,7 +136,7 @@
     top: 50%;
     right: -7.5rem;
     transform: translateY(-50%);
-    background: url("../img/top/entry_arrow.svg")no-repeat center center/contain;
+    background: url("../img/top/entry_arrow.svg") no-repeat center center/contain;
 }
 
 /* solutino */
@@ -179,7 +179,7 @@
 #company{
     width: 66.7%;
     margin: auto;
-    background: url("../img/top/company_bg.jpg")no-repeat center center/cover;
+    background: url("../img/top/company_bg.jpg") no-repeat left center/100%;
     color: white;
     padding: 6rem 0 6.4rem;
     margin-bottom: 15rem;
@@ -219,7 +219,7 @@
 #company .wrap p{
     line-height: 2;
     margin-left: 49%;
-    margin-bottom: 10.4rem;
+    margin-bottom: 5.4rem;
 }
 
 .more{
@@ -252,7 +252,7 @@
 }
 
 #about .left{
-    background: url("../img/top/about_img_bg.jpg")no-repeat center center/cover;
+    background: url("../img/top/about_img_bg.jpg") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,16 +388,18 @@
         background: none;
         bottom: 7rem;
         right: unset;
-        left: 2rem;
-        width: 37.1rem;
-        height: 43rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 56.7rem;
+        height: 45.2rem;
         border-radius: 0;
     }
 
     #mv .mv .content img{
         width: 100%;
         margin: 0;
-        transform: none;
+        transform: translateX(-5%);
+        filter: drop-shadow(1rem 1rem 0.2rem #70D8F0);
     }
 
     #mv .mv .content p{
@@ -458,7 +460,7 @@
     }
 
     #company .wrap h2{
-        background: url("../img/top/company_bg.jpg")no-repeat center center/cover;
+        background: url("../img/top/company_bg.jpg") no-repeat center center/cover;
         margin: 0;
         width: calc(100% - 17.5rem);
         padding: 3.4rem 0 4.9rem 17.5rem;
