@@ -103,7 +103,7 @@
     #message{
         width: 85.33%;
         min-width: 320px;
-        margin-top: -23rem;
+        margin-top: -12rem;
         margin-bottom: 4.2rem;
     }
 
@@ -117,10 +117,12 @@
 
     #message .wrap h3{
         font-size: 1.8rem;
-        width: 21.2rem;
+        width: 21.6rem;
         margin: auto;
         text-align: center;
         margin-bottom: 2.9rem;
+        line-height: 2;
+        font-weight: bold;
     }
 
     #message .wrap p{
